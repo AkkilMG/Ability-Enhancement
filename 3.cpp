@@ -20,8 +20,8 @@ int main() {
             case 2:
                 cout << "The present volume is " << ((chng>vol)?0:chng) << " & steps taken is " << (((chng>vol)?vol:(vol-chng))) << endl;
                 break;
-            case 4:
-                return 0;
+            //case 3:
+                //return 0;
         }
     }
     return 0;
